@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: EmployeeManagementServiceConsumer
+Bundle-SymbolicName: EmployeeManagementServiceConsumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.osgi.emp.service.consumer.ServiceActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: EmployeeManagementServiceConsumer
+Import-Package: com.osgi.emp.service.publisher,
+ org.osgi.framework;version="1.3.0"
+
